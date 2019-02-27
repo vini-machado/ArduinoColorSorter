@@ -8,3 +8,6 @@ If you are like me and you don't like orange skittles at all then i have an rela
   - One Power Jack
   - One Plastic Tube
   - Two Servo Motors
+
+
+Here is a [video](https://www.youtube.com/watch?v=XcscWI3ANdc) of how it works.
