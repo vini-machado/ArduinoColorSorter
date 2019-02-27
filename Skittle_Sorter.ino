@@ -12,6 +12,7 @@ Servo aux;
 int frequency = 0;
 int color = 0;
 
+//This function finds out what color is the skittle and depending on the color it drops into one of the three containers.
 int readColor() 
 {
   digitalWrite (S2, LOW);
@@ -105,6 +106,7 @@ void loop()
   
   color = readColor ();
   delay (10);  
+  // initially there should have been 5 containers but i chose to put red and yellow in the first container and the green and purple ones in the third.
   switch (color) 
   {
     case 1:
