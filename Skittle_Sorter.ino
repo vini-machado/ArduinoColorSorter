@@ -21,10 +21,6 @@ int readColor()
   frequency = pulseIn (sensorOut, LOW);
   int R = frequency;
   
-  Serial.print ("R= ");
-  Serial.print (frequency);
-  Serial.print ("  ");
-  
   delay (50);
   
   digitalWrite (S2, HIGH);
@@ -33,10 +29,6 @@ int readColor()
   frequency = pulseIn (sensorOut, LOW);
   int G = frequency;
   
-  Serial.print ("G= ");
-  Serial.print (frequency);
-  Serial.print ("  ");
-  
   delay (50);
 
   digitalWrite (S2, LOW);
@@ -44,10 +36,6 @@ int readColor()
   
   frequency = pulseIn (sensorOut, LOW);
   int B = frequency;
-  
-  Serial.print ("B= ");
-  Serial.print (frequency)
-  Serial.println ("  ");
   
   delay (50);
 
